@@ -1,11 +1,6 @@
 {
   "version": "0.1.6",
-  "homepage": "",
-  "hash": "",
   "url": "https://github.com/wiresock/WireSockUI/releases/download/v0.1.6/WireSockUI-v0.1.6-AnyCPU.zip",
-  "extract_dir": "",
-  "bin": "",
-  "license": "",
   "checkver": {
     "url": "https://github.com/wiresock/WireSockUI/releases/latest",
     "regex": "WireSockUI-v([\\d.]+)"
