@@ -1,10 +1,10 @@
 {
-  "version": "0.1.6",
-  "url": "https://github.com/wiresock/WireSockUI/releases/download/v0.1.6/WireSockUI-v0.1.6-AnyCPU.zip",
-  "homepage": "https://github.com/wiresock/WireSockUI",
-  "license": "Freeware",
-  "checkver": "github",
-  "autoupdate": {
-    "url": "https://github.com/wiresock/WireSockUI/releases/download/$version/WireSockUI-$version-AnyCPU.zip"
-  }
+    "version": "0.1.7",
+    "url": "https://github.com/wiresock/WireSockUI/releases/download/0.1.7/WireSockUI-0.1.7-AnyCPU.zip",
+    "homepage": "https://github.com/wiresock/WireSockUI",
+    "license": "Freeware",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/wiresock/WireSockUI/releases/download/$version/WireSockUI-$version-AnyCPU.zip"
+    }
 }
