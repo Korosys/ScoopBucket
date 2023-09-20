@@ -1,0 +1,16 @@
+on:
+  workflow_dispatch:
+  schedule:
+    # run every 4 hours
+    - cron: '20 */4 * * *'
+name: Excavator
+jobs:
+  autoupdate:
+    name: autoupdate
+    runs-on: windows-latest
+    steps:
+      - name: Autoupdate
+        shell: powershell
+        run: |
+          $env:SCOOP_HOME="$(Convert-Path '.\scoop_core')"
+          .\my_bucket\bin\checkver.ps1
