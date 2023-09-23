@@ -5,10 +5,11 @@
     "license": "Freeware",
     "shortcuts": [
         [
-            "WireSockUI-v0.1.6-AnyCPU\\WireSockUI.exe",
+            "WireSockUI.exe",
             "WireSockUI"
         ]
     ],
+    "post_install": "mv $original_dir\\WireSockUI-v$version-AnyCPU\\* $original_dir\\*",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/wiresock/WireSockUI/releases/download/v$version/WireSockUI-v$version-AnyCPU.zip"
