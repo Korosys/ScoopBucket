@@ -12,7 +12,7 @@
   ],
   "checkver": "github",
   "autoupdate": {
-      "url": "https://github.com/wiresock/WireSockUI/releases/download/v$version/WireSockUI-v$version-AnyCPU.zip"
+      "url": "https://github.com/wiresock/WireSockUI/releases/download/v$version/WireSockUI-v$version-AnyCPU.zip",
       "extract_dir": "WireSockUI-v$version-AnyCPU"
   }
 }
