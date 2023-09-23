@@ -3,7 +3,7 @@
   "url": "https://github.com/wiresock/WireSockUI/releases/download/v0.1.7/WireSockUI-v0.1.7-AnyCPU.zip",
   "homepage": "https://github.com/wiresock/WireSockUI",
   "license": "Freeware",
-  "post_install": "create_startmenu_shortcuts \"$original_dir\\WireSockUI-v$version-AnyCPU\\WireSockUI.exe\", WireSockUI",
+  "extract_dir": "WireSockUI-v$version-AnyCPU",
   "shortcuts": [
       [
           "WireSockUI.exe",
