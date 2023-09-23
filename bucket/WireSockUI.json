@@ -5,7 +5,7 @@
     "license": "Freeware",
     "shortcuts": [
         [
-            "WireSockUI.exe",
+            "WireSockUI-v$version-AnyCPU\\WireSockUI.exe",
             "WireSockUI"
         ]
     ],
