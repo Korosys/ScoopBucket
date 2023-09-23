@@ -1,11 +1,11 @@
 {
-    "version": "0.1.7",
-    "url": "https://github.com/wiresock/WireSockUI/releases/download/v0.1.7/WireSockUI-v0.1.7-AnyCPU.zip",
+    "version": "0.1.6",
+    "url": "https://github.com/wiresock/WireSockUI/releases/download/v0.1.6/WireSockUI-v0.1.6-AnyCPU.zip",
     "homepage": "https://github.com/wiresock/WireSockUI",
     "license": "Freeware",
     "shortcuts": [
         [
-            "WireSockUI-v$version-AnyCPU\\WireSockUI.exe",
+            "WireSockUI-v0.1.6-AnyCPU\\WireSockUI.exe",
             "WireSockUI"
         ]
     ],
